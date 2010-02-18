@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "skates"
-    gem.summary = %Q{Skates is a framework to create EventMachine based XMPP External Components in Ruby.}
-    gem.email = "julien.genestoux@gmail.com"
-    gem.homepage = "http://github.com/julien51/skates"
-    gem.authors = ["julien Genestoux"]
+    gem.name = "ipvision-skates"
+    gem.summary = %Q{Skates is a framework to create EventMachine based XMPP External Components in Ruby. IPVision fork.}
+    gem.email = "sbd@ipvision.dk"
+    gem.homepage = "http://github.com/daugaard/skates"
+    gem.authors = ["julien Genestoux", "Søren Blond Daugaard"]
 
     gem.add_dependency('eventmachine', ">= 0.12.10")
     gem.add_dependency('log4r')
